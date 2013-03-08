@@ -1,0 +1,130 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+  <TableRow 
+    android:paddingTop="10dp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+    
+      
+       <TextView 
+          android:layout_width="100dp"
+          android:text="@string/login"
+          />
+      <EditText 
+          android:id="@+id/login"
+          android:hint="@string/login"
+          android:textStyle="bold"
+          android:layout_width="200dp"
+          android:lines="1"
+          android:inputType="textCapCharacters"
+          
+          />
+      
+     
+   </TableRow>
+   
+  
+ 
+  <TableRow 
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent">
+          <TextView 
+          android:layout_width="100dp"
+          android:text="@string/email"
+          />
+      <EditText 
+          android:id="@+id/email"
+          android:hint="@string/email"
+          android:textStyle="bold"
+          android:layout_width="200dp"
+          android:lines="1"
+          android:inputType="textWebEmailAddress"
+          
+          />
+      
+      
+   </TableRow>
+   
+  <TableRow 
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent">
+        <TextView 
+          android:layout_width="100dp"
+          android:text="@string/password"
+          />
+       
+       <EditText 
+          android:id="@+id/password"
+          android:hint="@string/password"
+          android:layout_width="200dp"
+          android:lines="1"
+          android:inputType="textPassword"
+          />
+        
+      
+      
+      
+   </TableRow>
+   
+  <TableRow 
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent">
+     <TextView 
+          android:layout_width="100dp"
+          android:text="@string/confirm_password"
+         
+          />
+      <EditText 
+          android:id="@+id/password_confirm"
+          android:hint="@string/confirm_password"
+          android:layout_width="200dp"
+          android:lines="1"
+          android:inputType="textPassword"
+          />
+      
+      
+   </TableRow>
+   
+  <TableRow 
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent">
+      
+   <TextView 
+    android:text="@string/your_gender"
+    android:layout_width="100dp"
+       />
+      <RadioGroup 
+          android:id="@+id/gender" >
+          
+     <RadioButton 
+         android:id="@+id/female"
+         android:text="@string/female"
+         android:checked="true"
+         
+         />
+      <RadioButton 
+         android:id="@+id/male"
+         android:text="@string/male"
+          />
+      </RadioGroup>
+      
+      </TableRow>
+      
+     <TableRow 
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent">
+         <CheckBox 
+             android:id="@+id/agreement"
+             android:text="@string/agreement"
+             />
+         <Button 
+             android:id="@+id/send"
+             android:text="@string/send"
+             android:onClick="send"
+             />
+     </TableRow>
+</TableLayout>

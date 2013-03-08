@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RegistrationForm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="email">e-mail</string>
+    <string name="your_gender">your gender</string>
+    <string name="female">female</string>
+    <string name="male">male</string>
+    <string name="agreement">I agree</string>
+    <string name="send">send</string>
+
+    <color name="error">#990000</color>
+
+    <string name="title_activity_show">ShowActivity</string>
+
+</resources>
